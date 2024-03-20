@@ -1,6 +1,6 @@
 # NxNuxtDemo
 
-This project is a demo to reproduce an issue with the @nx/nuxt plugin.
+This project is a demo to reproduce an issue with the @nx/nuxt plugin ([see](https://github.com/nrwl/nx/issues/22410)).
 
 ## Steps to reproduce
 
