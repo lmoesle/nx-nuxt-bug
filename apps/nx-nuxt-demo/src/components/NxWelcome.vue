@@ -1,7 +1,22 @@
-<script setup lang="ts">
-defineProps<{
-  title: string;
-}>();
+<script lang="ts">
+export default defineComponent({
+  props: {
+    title: String,
+  },
+  setup(props) {
+
+    const init = async () => {
+      const { data } = await useFetch('/api/greet');
+      console.log(data.value);
+    };
+
+    init();
+
+    return {
+      title: props.title,
+    };
+  },
+})
 </script>
 
 <template>

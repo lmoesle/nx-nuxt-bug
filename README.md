@@ -1,5 +1,7 @@
 # NxNuxtDemo
 
+> Issue has been resolved by creating an alias for the lib in the nuxt config. See https://github.com/nrwl/nx/issues/22410#issuecomment-2072085078
+
 This project is a demo to reproduce an issue with the @nx/nuxt plugin ([see](https://github.com/nrwl/nx/issues/22410)).
 
 ## Steps to reproduce

@@ -19,6 +19,11 @@ export default defineNuxtConfig({
   imports: {
     autoImport: true,
   },
+  alias: {
+    // add for every lib an alias here to import it properly
+    // see https://github.com/nrwl/nx/issues/22410
+    "@nx-nuxt-demo/demo": "../../demo/src/index.ts"
+  },
 
   css: ['~/assets/css/styles.css'],
 
